@@ -13,8 +13,14 @@ body {
 }
 
 .content{
-    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
 }
+
+.content header[
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+]
 
 hr{
     background-color: gray;
@@ -36,4 +42,13 @@ hr{
     float: left;
     width: 150px;
     padding: 15px 20px 0px 0px;
+}
+
+.port-image {
+        margin: 20px auto;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
 }
